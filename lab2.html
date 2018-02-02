@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <style>
+            @media only screen and (max-width: 540px){
+                #title{
+                    display: none;
+                }
+                
+            }
+            
+            #footer{
+                position: fixed;
+                text-align: center;
+                left: 0px;
+                bottom: 0px;
+                width: 100%;             
+                
+            }
+        
+        </style>
+
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="header">
+                <h1>Welcome to My Mobile Site</h1>
+            </div> <!-- end header -->
+            
+            <div data-role="main">
+                <h1 id="title">I am a responsive title.</h1>
+                <p><strong>Mary had a little lamb whose feet was white as snow. And everywhere that Mary, the lamb was sure to go!</strong></p>
+            
+                <p><strong>There was a farmer, had a dog,and Bingo was his name-o. B-I-N-G-O, B-I-N-G-O, 
+                    B-I-N-G-O, And Bingo was his name-o.</strong></p>
+                
+                <!-- <img src="leaf separator1.png"> -->
+                
+                <p><strong>One, two, buckle my shoe
+                            Three, four, shut the door
+                            Five, six, pick up sticks
+                            Seven, eight, lay them straight
+                            Nine, ten, a big fat hen
+                            Eleven, twelve, men must delve
+                            Thirteen, fourteen, maids are courting
+                            Fifteen, sixteen, maids in the kitchen
+                            Seventeen, eighteen, maids in waiting
+                            Nineteen, twenty, my plate's empty.</strong></p>
+                
+                <p><strong>Hey diddle diddle,
+                            The cat and the fiddle,
+                            The cow jumped over the moon,
+                            The little dog laughed to see such fun,
+                            And the dish ran away with the spoon.</strong></p>
+                
+                <p><strong>Humpty Dumpty sat on a wall.
+                Humpty Dumpty had a great fall.
+                All the king's horses and all the king's men
+                Couldn't put Humpty together again.</strong></p>
+
+            </div> <!-- end main -->
+            
+            <div id="footer" data-role="footer">
+                <h1>Thanks for Stopping By</h1>
+                <p>Copyright &copy; 2018<?php echo date("Y");?></p>
+        
+            </div> <!-- end footer -->
+        </div>
+    
+    
+    </body>
+    
+</html>
